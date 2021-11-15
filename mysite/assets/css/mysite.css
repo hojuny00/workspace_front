@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr, 
+textarea, button, form {
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: "맑은 고딕", 돋음, 굴림;
+    font-size: 12px;
+}
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:active {text-decoration: none; color: black;}
+a:hover {text-decoration: none; color: black;}
+
+ul, ol {list-style-type: none;}
+
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+
+#wrap {
+    /* border: 1px solid black; */
+    width: 1000px;
+    /* background-color: yellow; */
+    margin: 0px auto;
+}
+#header {
+    border-bottom: 2px solid #a6a6a6;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+}
+#nav {
+    border-bottom: 2px solid #a6a6a6;
+    /* background-color: #0f0; */
+}
+#contents {
+    /* border-bottom: 1px solid #a6a6a6; */
+    padding: 40px 20px 40px 20px;
+    /* background-color: salmon; */
+}
+#footer {
+    background-color: #dddd;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+/* header section */
+#header>h1 {
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+#header>h1>a {
+    font-size: 35px;
+    color: #79b30b;
+}
+#header>ul {
+    margin-top: 25px;
+    float: right;
+}
+#header>ul>li {
+    float: left;
+    margin: 0px 0px 0px 20px;
+}
+
+/* nav section */
+#nav {
+    margin: 10px 0px 0px 0px;
+}
+#nav>ul {
+    margin: 10px 0px 10px 0px;
+}
+#nav>ul>li {
+    /* border: 1px solid black; */
+    
+    font-size: 15pt;
+    font-weight: bold;
+    
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+/* contents section */
+#profile {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+#greeting {
+    float: left;
+}
+
+.f-xl {font-size: 20px;}
+.f-l {font-size: 16px;}
+.f-s {font-size: 10px;}
+.b {font-weight: bold;}
+
+
+
+
+

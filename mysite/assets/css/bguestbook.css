@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr, 
+textarea, button, form {
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: "맑은 고딕", 돋음, 굴림;
+    font-size: 12px;
+}
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:active {text-decoration: none; color: black;}
+a:hover {text-decoration: none; color: black;}
+
+ul, ol {list-style-type: none;}
+
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+
+#wrap {
+    /* border: 1px solid black; */
+    width: 1000px;
+    /* background-color: yellow; */
+    margin: 0px auto;
+}
+#header {
+    border-bottom: 2px solid #a6a6a6;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+}
+
+#nav {
+    border-bottom: 2px solid #a6a6a6;
+    /* background-color: #0f0; */
+}
+#contents {
+    width: 1000px;
+    /* border-bottom: 2px solid #a6a6a6; */
+    padding: 20px 0px 20px 0px;
+    /* background-color: salmon; */
+}
+#aside {
+    width: 140px;
+    float: left;
+    margin-right: 20px;
+    /* background-color: greenyellow; */
+}
+#main {
+    width: 836px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+#footer {
+    background-color: #dddd;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    clear: both;
+}
+
+/* header section */
+#header>h1 {
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+#header>h1>a {
+    font-size: 35px;
+    color: #79b30b;
+}
+#header>ul {
+    margin-top: 25px;
+    float: right;
+}
+#header>ul>li {
+    float: left;
+    margin: 0px 0px 0px 20px;
+}
+
+/* nav section */
+#nav {
+    margin: 10px 0px 0px 0px;
+}
+#nav>ul {
+    margin: 10px 0px 10px 0px;
+}
+#nav>ul>li {
+    /* border: 1px solid black; */
+    
+    font-size: 15pt;
+    font-weight: bold;
+    
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+/* contents section */
+    /* aside section */
+#aside #aside-main{
+    width: 140px;
+    height: 45px;
+ 
+    text-align: center;
+
+    background-color: #dddd;
+    border: 2px solid #dddd;
+
+    margin: 0px 20px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+.aside-sub {
+    width: 135px;
+    height: 25px;
+    border: 2px solid #dddd;
+
+    text-align: left;
+
+    background-color: #fff;
+
+    margin-top: 5px;
+    margin-right: 20px;
+
+    padding: 5px 0px 0px 5px;
+}
+
+    /* main section */
+        /* main top */
+#main-top {
+    background-color: white;
+    border-bottom: 2px solid #a6a6a6;
+}
+#main-top h3 {
+    font-size: 18px;
+    float: left;
+    margin: 22px 0px 5px 0px;
+}
+#main-top-list {
+    float: right;
+    margin: 15px 0px 10px 0px;
+}
+#main-top-list li {
+    float:left;
+    margin-left: 5px;
+}
+.a:after {
+    content: ">";
+    padding-left: 10px;
+}
+        /* main mid1 */
+#boardwrite {
+    border-bottom: 2px solid #a6a6a6;
+    width: 836px;
+    padding-bottom: 15px;
+}
+
+.f-xl {font-size: 20px;}
+.f-l {font-size: 16px;}
+.f-s {font-size: 10px;}
+.b {font-weight: bold;}
+
+
+
+
+

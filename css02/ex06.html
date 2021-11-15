@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            .save {
+                font-size: 25px;
+                text-align: center;
+
+                width: 150px;
+                height: 50px;
+
+                background-color: rgb(158, 155, 155);
+                border: 2px solid gray;
+
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+
+                margin: 5px;
+            }
+            .del {
+                font-size: 25px;
+                text-align: center;
+
+                width: 150px;
+                height: 50px;
+
+                background-color: orange;
+                border: 2px solid orangered;
+
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+
+                margin: 5px;
+            }
+            .mod {
+                font-size: 25px;
+                text-align: center;
+
+                width: 150px;
+                height: 50px;
+
+                background-color: aqua;
+                border: 2px solid aquamarine;
+
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                
+                margin: 5px;
+                margin-bottom: 10px;
+            }
+            .login {
+                font-size: 25px;
+                text-align: center;
+                vertical-align: middle;
+
+                width: 150px;
+                height: 50px;
+
+                background-color: yellow;
+                border: 2px solid black;
+                
+                /* display: inline-block; */
+                display: table-cell;
+
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+
+                /* margin: 20px; table-cell에서는 margin 작동안함*/
+            }
+            button:hover {
+                background-color: cadetblue;
+                color: rgb(91, 117, 46);
+                /* cursor: pointer; */
+            }
+
+            button:active {
+                background-color: cadetblue;
+                color: rgb(91, 117, 46);
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+    
+        <button class="save">
+            저장버튼
+        </button><br>
+        
+        <button class="del">
+            삭제버튼
+        </button><br>
+        
+        <button class="mod">
+            수정버튼
+        </button><br>
+
+        <a href="" class="login">로그인</a>
+
+
+    </body>
+
+</html>
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UFT-8">
+        <title>정권 만족도 조사</title>
+
+        <style>
+            input[type="text"] {background-color: silver;}
+            h2 {background-color: thistle;}
+            h3 {color: tan;}
+        </style>
+    </head>
+    <body>
+
+    <h1>현 정권의 만족도 조사</h1>  
+        <form action="" method="get">
+           
+            <label for="txt-id">이름</label>
+            <input type="text" id="txt-id" name="uid" value="" placeholder="이름을 입력하세요.">
+            <br>
+            <select name="grade">
+                <option value="0">학년을 선택하세요.</option>
+                <option value="1">1학년</option>
+                <option value="2">2학년</option>
+                <option value="3">3학년</option>
+            </select>
+            <br>
+            <br>
+    <h2>Q1. 현 정권의 종합적인 만족도 </h2>
+    <h4>(별이 부족할 경우, 복수 체크 가능)</h4>
+           
+        <input type="checkbox" id="sat-1" name="sat" value="1">
+        <label for="sat-1">★</label><br>
+        
+        <input type="checkbox" id="sat-2" name="sat" value="2">
+        <label for="sat-2">★★</label><br>
+          
+        <input type="checkbox" id="sat-3" name="sat" value="3">
+        <label for="sat-3">★★★</label><br>
+           
+        <input type="checkbox" id="sat-4" name="sat" value="4">
+        <label for="sat-4">★★★★</label><br>
+           
+        <input type="checkbox" id="sat-5" name="sat" value="5" checked="checked">
+        <label for="sat-5">★★★★★</label><br>
+            <br>
+    <h2>Q2. 현 정권의 조직도에서 제 역할을 못하는 부서는? </h2>
+    <h4>(선택 이유는?)</h4>
+
+        <input type="radio" id="rdo-1" name="wg" value="hidu">
+        <label for="rdo-1">의금부(포도청 포함)</label><br>
+        
+        <input type="radio" id="rdo-2" name="wg" value="gyun">
+        <label for="rdo-2">금의위</label><br>
+          
+        <input type="radio" id="rdo-3" name="wg" value="3dol">
+        <label for="rdo-3">의정부(삼의정)</label><br>
+           
+        <input type="radio" id="rdo-4" name="wg" value="jumo">
+        <label for="rdo-4">호조(객잔 포함)</label><br>
+           
+        <input type="radio" id="rdo-5" name="wg" value="mj" checked="checked">
+        <label for="rdo-5">문체부</label><br>
+
+        <input type="radio" id="rdo-6" name="wg" value="kks">
+        <label for="rdo-6">봉사부</label><br>
+            <br>
+        <textarea name="why"></textarea> <br> 
+
+ 
+    <h2>Q3. 애로사항 및 건의사항 </h2>
+    <textarea name="error"></textarea><br>
+ <button type="submit">제출</button>
+    </form>
+    </body>
+</html>
